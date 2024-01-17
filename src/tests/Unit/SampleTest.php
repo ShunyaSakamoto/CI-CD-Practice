@@ -60,6 +60,6 @@ class SampleTest extends TestCase
         ### Assert
         $this->assertNotNull($user);
         $this->assertNotEmpty($user);
-        $this->assertSame(1, $user->count(), 'User count is not same as expected.'); // わざと期待値を間違えている
+        $this->assertSame(1, $user->count(), 'User count is not same as expected.');
     }
 }
